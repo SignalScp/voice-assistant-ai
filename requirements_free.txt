@@ -1,0 +1,17 @@
+# Основные зависимости
+SpeechRecognition==3.10.0
+pyaudio==0.2.14
+pyttsx3==2.90
+requests==2.31.0
+pywin32==306
+
+# Для Ollama (локальная модель)
+ollama==0.1.6
+
+# Для Hugging Face (локальная модель)
+transformers==4.36.0
+torch==2.1.0
+sentencepiece==0.1.99
+
+# Для Groq API (бесплатный)
+# Не требует дополнительных пакетов, только requests
