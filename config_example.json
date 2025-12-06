@@ -1,0 +1,15 @@
+{
+  "openai_api_key": "your-openai-api-key-here",
+  "weather_api_key": "your-weather-api-key-here",
+  "wake_words": ["ассистент", "помощник", "компьютер"],
+  "voice_settings": {
+    "rate": 180,
+    "volume": 0.9,
+    "language": "ru-RU"
+  },
+  "recognition_settings": {
+    "energy_threshold": 4000,
+    "timeout": 5,
+    "phrase_time_limit": 10
+  }
+}
